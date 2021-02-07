@@ -103,3 +103,55 @@
   font-size: 2rem;
   color: rgb(252, 252, 252);
 }
+
+.containers {
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 9vh;
+}
+
+.btn-2 {
+  width: 200px;
+  height: 70px;  
+  border: none;
+  color: aliceblue;
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  font-size: 2rem;
+  outline: none ;
+  border: 3px solid #fc5252;
+  position: relative;
+  z-index: 1;
+
+}
+
+.btn-2:hover {
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.btn-2:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #fc5252;
+}
+
+
+.btn-2:hover::before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
