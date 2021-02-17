@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="google-site-verification" content="3gSHsKgDsLUlDhyfIBxxS8KTHLRVQp4GPhsouZG1oFQ" />
+    <meta name="google-site-verification" content="xldB8Yjo1b5FIZc2kjoYR50PAA_a8JriPjNI79fZ6Ak" />
     <meta charset="UTF-8" />
     <meta name="description" content="Completely Customisable Home Interior Designed by experts. Contact us!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,14 +11,26 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://assets2.lottiefiles.com/packages/lf20_QDchDS.json">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Opulence - Transforming Homes</title>
     <link rel="shortcut icon" href="img/favicon.png">
   </head>
   <body id="body">
+    <!-- Firebase Codes -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.2.7/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.2.7/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
     <!----------------------  Nav Bar HTML Code --------------------------->
-    <nav class="navbar background">
+    <nav class="navbar background" >
       <ul class="nav-list">
-        <div class="logo"><a href="index.html"></a><img src="img/logo.png" alt="Interior design" /></div>
+        <div class="logo" ><a href="index.html"></a><img src="img/logo.png" alt="Interior design" /></div>
         <li><a href="index.html">Home</a></li>
         <li><a href="interior.html">Interior Designing</a></li>
         <li><a href="exterior.html">Exterior Designing</a></li>
@@ -27,7 +39,7 @@
     </nav>
 <!--------------------------  Text on Image ----------------------------->
     <section class="background firstSection">
-      <div class="box-main">
+      <div class="box-main" data-aos="fade-up">
         <div class="firstHalf">
           <section class="text-gray-600 body-font">
             <div class="container px-5 py-24 mx-auto flex flex-wrap">
@@ -43,12 +55,12 @@
     <section>
       <link rel="stylesheet" href="stylee.css">
       <body>
-        <div class="typetext">
+        <div class="typetext" data-aos="fade-up">
           <p>Looking For <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
         </div>
         <script src="main.js"></script>
       </body>
-      <div class="containers">
+      <div class="containers" data-aos="fade-up">
         <a href="contact.html"><button class="btn-2">Contact us</button></a>
         
         <a href="https://calendly.com/opulencee/30min"><button class="btn-1">Book a call!</button></a>
@@ -58,7 +70,7 @@
     <section class="secRight">
       <section class="text-gray-600 body-font">
         <div
-          class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+          class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center" data-aos="fade-up"
         >
           <div
             class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
@@ -87,7 +99,7 @@
  
     <section>
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap" data-aos="fade-up">
           <div class="flex flex-wrap w-full">
             <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
               <div class="flex relative pb-12">
@@ -261,7 +273,7 @@
     </section>
     <section>
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-24 mx-auto" data-aos="fade-up">
           <div class="text-center mb-20">
             <h1
               class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4"
@@ -382,7 +394,7 @@
     </section>
     <section>
       <section class="text-gray-600 body-font relative">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-24 mx-auto" data-aos="fade-up">
           <div class="flex flex-col text-center w-full mb-12">
             <h1
               class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900" id="Contact us"
@@ -668,5 +680,12 @@
         </button>
       </div>
     </div> -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 350,
+      duration: 800
+    });
+  </script>
   </body>
 </html>
