@@ -25,11 +25,35 @@
      https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="/__/firebase/8.2.7/firebase-analytics.js"></script>
 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyAJ4F8G2Ip1NdDBGPsQ24atp-HG6hKvgvE",
+    authDomain: "final-opulence.firebaseapp.com",
+    projectId: "final-opulence",
+    storageBucket: "final-opulence.appspot.com",
+    messagingSenderId: "965793042252",
+    appId: "1:965793042252:web:bd6190ec83cfac4f7649e9",
+    measurementId: "G-8WEKT1L2FF"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
 <!-- Initialize Firebase -->
 <script src="/__/firebase/init.js"></script>
 
     <!----------------------  Nav Bar HTML Code --------------------------->
-    <nav class="navbar background" >
+    <!-- <nav class="navbar background" >
       <ul class="nav-list">
         <div class="logo" ><a href="index.html"></a><img src="img/logo.png" alt="Interior design" /></div>
         <li><a href="index.html">Home</a></li>
@@ -37,7 +61,36 @@
         <li><a href="exterior.html">Exterior Designing</a></li>
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
+    </nav> -->
+
+    <nav>
+      <div class="hamnurger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Interior Designing</a></li>
+        <li><a href="#">Exterior Designing</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
     </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--------------------------  Text on Image ----------------------------->
     <section class="background firstSection">
       <div class="box-main" data-aos="fade-up">
@@ -261,8 +314,8 @@
                 </div>
               </div>
             </div>
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-            <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_QDchDS.json" mode="bounce" background="transparent"  speed="1"  style="width: 590px; height: 590px;"  loop autoplay></lottie-player>
+            <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_QDchDS.json" mode="bounce" background="transparent"  speed="1"  style="width: 590px; height: 590px;"  loop autoplay></lottie-player> -->
             <img
               class="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12"
               src=""
