@@ -15,11 +15,16 @@
     <link rel="shortcut icon" href="img/favicon.png">
     <link rel="stylesheet" href="main.js">
   </head>
+
   <body id="body">
+
     <button id="back-to-top-btn"><i class="fas fa-angle-up"></i></button>
+
     <!-- Firebase Codes -->
     <!-- The core Firebase JS SDK is always required and must be listed first -->
+
 <script src="/__/firebase/8.2.7/firebase-app.js"></script>
+
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
@@ -49,46 +54,27 @@
   firebase.analytics();
 </script>
 
-<!-- Initialize Firebase -->
+<!-- Initialize Firebase --> 
 <script src="/__/firebase/init.js"></script>
 
     <!----------------------  Nav Bar HTML Code --------------------------->
-    <!-- <nav class="navbar background" >
-      <ul class="nav-list">
-        <div class="logo" ><a href="index.html"></a><img src="img/logo.png" alt="Interior design" /></div>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="interior.html">Interior Designing</a></li>
-        <li><a href="exterior.html">Exterior Designing</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-    </nav> -->
 
-    <nav>
-      <div class="hamnurger">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
+    <nav class="overflow">
+      <div class="logo"><img src="img/logo.png" alt="Opulence"></div>
+      
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Interior Designing</a></li>
-        <li><a href="#">Exterior Designing</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="index.html" class="cool">Home</a></li>
+        <li><a href="interior.html" class="cool">Interior Designing</a></li>
+        <li><a href="exterior.html" class="cool">Exterior Designing</a></li>
+        <li><a href="contact.html" class="cool">Contact Us</a></li>
       </ul>
+      <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
     </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="css/animation.js"></script>
 
 
 <!--------------------------  Text on Image ----------------------------->
@@ -107,17 +93,17 @@
     </section>
     <!----------------------- Text animation ----------------------->
     <section>
-      <link rel="stylesheet" href="stylee.css">
+      <link rel="stylesheet" href="css/stylee.css">
       <body>
         <div class="typetext" data-aos="fade-up">
           <p>Looking For <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
         </div>
-        <script src="main.js"></script>
+        <script src="css/main.js"></script>
       </body>
       <div class="containers" data-aos="fade-up">
         <a href="contact.html"><button class="btn-2">Contact us</button></a>
         
-        <a href="https://calendly.com/opulencee/30min"><button class="btn-1">Book a call!</button></a>
+        <a href="https://calendly.com/opulencee/15min"><button class="btn-1">Book a call!</button></a>
       </div> 
     </section>
 
@@ -737,7 +723,7 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
-      offset: 350,
+      offset: 150,
       duration: 800
     });
   </script>
