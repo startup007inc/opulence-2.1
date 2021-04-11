@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -212,13 +213,13 @@ nav{
 }
 
 .heading {
-  font-family: "Yusei Magic", sans-serif;
+  font-family: cursive, cursive;
   font-size: 2rem;
   color: rgb(252, 252, 252);
 }
 
 .containers {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dancing Script', cursive;
   letter-spacing: 4px;
   display: flex;
   flex-direction: row;
